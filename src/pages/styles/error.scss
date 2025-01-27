@@ -1,0 +1,48 @@
+
+
+.center {
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+iframe {
+  border: 0;
+  overflow: hidden;
+  position: absolute;
+}
+
+.attribution {
+  display: block;
+  transition: all 0.8s ease 0s;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  padding: 7px 9px;
+  position: absolute;
+  bottom: -30px;
+  left: 10px;
+  text-decoration: none;
+  z-index: 10;
+  background: rgba(34, 41, 47, 0.04);
+  opacity: 0.4;
+}
+
+.attribution.dark {
+  background: rgba(255, 255, 255, 0.04);
+  opacity: 0.8;
+}
+
+.attribution.dark span {
+  color: #ffffff;
+  opacity: 0.8;
+}
+
+span {
+  display: inline-block;
+  margin-left: 5px;
+  font-size: 8pt;
+  color: rgba(43, 52, 59, 0.8);
+}

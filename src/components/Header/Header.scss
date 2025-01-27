@@ -1,0 +1,130 @@
+$header: 1440px;
+$heigh-header: 48px;
+$black-color: #000;
+
+.header {
+  width: $header;
+  margin: 0 auto;
+  height: 155px;
+}
+
+.top-header {
+  width: $header;
+  height: $heigh-header;
+  background-color: $black-color;
+
+  ul {
+    display: flex;
+    width: 931px;
+    height: 25px;
+    margin-left: 445px;
+    padding-top: 15px;
+    gap: 160px;
+    list-style: none;
+
+    li {
+      font-size: 14px;
+      font-weight: normal;
+      color: #FAFAFA;
+      display: flex;
+
+    }
+
+    div {
+      padding-top: 12px;
+      display: flex;
+      gap: 5px;
+      align-items: center;
+
+      li {
+        padding-top: 3px;
+      }
+    }
+  }
+}
+
+.main-header {
+  display: flex;
+  width: 1170px;
+  margin: 0 auto;
+
+  .header-left {
+    gap: 148px;
+    padding-top: 45px;
+    display: flex;
+    margin-right: 40px;
+    ul {
+      display: flex;
+      list-style: none;
+      gap: 48px;
+      padding-top: 10px;
+    }
+
+    li {
+      font-size: 14px;
+      cursor: pointer;
+    }
+
+    .Link {
+      font-size: 14px;
+      cursor: pointer;
+      color: black;
+      text-decoration: none;
+      padding-bottom: 2px;
+    }
+
+    .Link:hover,
+    .Link:focus {
+      border-bottom: 1px solid black;
+    }
+
+    .active {
+      border-bottom: 1px solid black;
+    }
+
+  }
+
+  .header-right {
+    display: flex;
+    margin-left: 50px;
+    gap: 20px;
+    margin-top: 40px;
+
+    .search {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      cursor: pointer;
+
+      img {
+        position: absolute;
+        margin-left: 210px;
+      }
+
+      input {
+        border: none;
+        outline: none;
+        border-radius: 6px;
+        width: 243px;
+        height: 42px;
+
+        background-color: #F5F5F5;
+        padding-left: 20px;
+        font-size: 13px;
+        font-weight: normal;
+      }
+    }
+
+    .icons {
+      display: flex;
+      gap: 24px;
+      padding-top: 5px;
+      cursor: pointer;
+
+      img {
+        width: 32px;
+        height: 32px;
+      }
+    }
+  }
+}

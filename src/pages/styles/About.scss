@@ -1,0 +1,99 @@
+.About {
+  margin: 0 auto;
+  width: 1440px;
+  display: flex;
+  height: 609px;
+  gap: 208px;
+
+  .about-str {
+    width: 525px;
+    padding-left: 135px;
+    padding-top: 170px;
+    height: 336px;
+
+    .str {
+      width: 525px;
+      height: 232px;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+  }
+}
+
+.h4-about {
+  margin-left: 155px;
+  margin-top: 80px;
+  font-size: 14px;
+  color: gray;
+  font-weight: normal;
+}
+
+.sallers {
+  height: 230px;
+  gap: 30px;
+  display: flex;
+  margin-top: 140px;
+
+  .saller-1 {
+    width: 270px;
+    height: 230px;
+    border: 1px solid #F5F5F5;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px 50px;
+
+    .saller-1__content {
+      width: 169px;
+      height: 170px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 14px;
+
+      .saller-1__content__text {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        text-align: center;
+      }
+
+      h5 {
+        letter-spacing: 4px;
+        font-size: 32px;
+      }
+
+      h6 {
+        font-size: 14px;
+        font-weight: 400;
+        margin: 0;
+      }
+    }
+  }
+}
+.People {
+  display: flex;
+  height: 564px;
+  margin-top: 130px;
+  gap: 30px;
+  .people-1 {
+    width: 370px;
+    height: 564px;
+    border: 1px solid #F5F5F5;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    .people-1-1 {
+      width: 370px;
+      height: 430px;
+      background-color: #F5F5F5;
+      img {
+        margin-left: 67px;
+      }
+    }
+  }
+}
